@@ -112,7 +112,7 @@ The solution leverages modern tools like Vite (bundled with Laravel 12) and Redi
   - **Success (202 Accepted)**:
     ```json
     {
-        "message": "Subscriber creation queued"
+        "message": "Subscriber created successfully"
     }
     ```
   - **Validation Error (422 Unprocessable Entity)**:
@@ -131,9 +131,15 @@ The solution leverages modern tools like Vite (bundled with Laravel 12) and Redi
 - Open `http://localhost:8000` in a browser.
 - The form is rendered via `Welcome.vue`.
 - Fill in the email and select a status, then click "Create".
-- **Success**: Shows "Subscriber creation queued" and resets the form.
+- **Success**: Shows "Subscriber created successfully" and resets the form.
 - **Validation Errors**: Displays errors below each field (e.g., "The email field is required.").
 - **Throttling**: Shows "Too many requests, please wait a minute" if limit exceeded.
+
+<img width="383" alt="image" src="https://github.com/user-attachments/assets/6cda7a81-ea07-4bb3-996e-82eb7f5caac7" />
+
+<img width="383" alt="image" src="https://github.com/user-attachments/assets/43f157ba-26ce-4320-837a-14e20917ad92" />
+
+<img width="383" alt="image" src="https://github.com/user-attachments/assets/5eeb0ca4-9f51-4d6f-87cc-fc949e525562" />
 
 ---
 
